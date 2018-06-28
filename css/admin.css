@@ -1,0 +1,327 @@
+@charset "utf-8";
+body{
+	margin:0;
+	padding:0;
+	background-image:url(/img/adminka/linen.jpg);
+}
+header{height:100px; background-color:#000;border-bottom:1px solid #FFF;}
+a{text-decoration:none;	}
+label.error{float:right;color:#F00;font-size:12px;}
+.button{
+	height:37px;
+	float:right;
+	margin:30px 10px;
+	border-radius: 7px;
+	padding:0 15px 0 10px;
+	border:1px solid #000;
+	}		
+.menutext
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	margin:5px auto;
+	color:#FFF;
+}	
+.button:hover
+{
+	background-image:url(/img/adminka/menu_bg.png);
+	border:1px solid #9dca5d;
+}
+section table{width:1024px;margin:0 auto;}			
+#content_menu td{width:33%;}
+#content_menu td article{text-align:center;}
+#content_menu img{margin-top:50px;}
+#content_menu img:hover
+{
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+#content_menu a:hover{color:#090;}
+p.load{width:900px;text-align:center;margin:0 auto;}
+#all_news tr{background-color:#fff;color:#000;height:30px;}
+#all_news tr:nth-child(even){background-color:#000;color:#FFF;}
+#all_news td{text-align:center;}
+/*tbody{text-align:center;}*/
+#all_news th{text-align:center;font:18px "Times New Roman", Times, serif;}
+#news_crud h1{text-align:center;}
+#news_crud input,textarea{width:100%; outline:none; padding:8px}
+
+input:focus,textarea:focus
+{
+	box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+	-moz-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+	-webkit-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+	-o-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+}
+#news_crud textarea{height:100px;resize:none;}
+.toggle{margin:0 auto;height:30px;width:100px;}
+#pagination{width:600px;margin:0 auto;}
+#pagination li{ display: block;
+	float:left;
+	margin-right:20px;
+	}
+#pagination li a{font:18px  "Times New Roman", Times, serif;}
+				/*Фотографії*/
+#photo{width:1024px;margin:0 auto;clear:both;}
+#photo > div{
+	width:315px;
+	height:115px;
+	background-color:#fff;
+	float:left;
+	margin:0 15px 15px 0;
+	border-radius:4px;
+	}
+#photo > div img{float:left;margin:15px;}
+#photo > div .add_inf{margin:15px 0;overflow-x:auto;white-space:nowrap;}
+#pag_photo{width:1024px;margin:0 auto; text-align:center;}
+#pag_photo li{display: block;
+	float:left;
+	margin-right:20px;}
+#img_upload{width:200px;background-color:#666;padding:10px;border-radius:8px;}
+div.table_news{
+	width:400px;
+	min-height:150px;
+	margin:20px auto;
+	background-color:#fff;
+	border:2px solid #a7a7a7;
+	border-radius:8px;
+	
+}
+.small_img{
+	display:block;
+	float:left;
+	margin:10px 10px;
+
+}
+.title_news{
+	margin-top:10px;
+	color:#000;
+	font-weight:700;
+	
+}
+.title_news a{
+	color:#316E17;
+	
+}
+.short_text{
+	font-size:14px;	
+	font-family:"Times New Roman", Times, serif;
+	margin:0 10px;
+	height:100px;
+}
+.title_news a{
+	text-decoration:none;	
+}
+
+.main_inf{
+	float:left;
+	width:90%;
+	/*padding-bottom:50px;*/
+	font-size:14px;
+	color:#a7a7a7;
+	border-top:1px dotted #a7a7a7;
+	margin-left:10px;
+	padding-bottom:10px;
+}
+.main_inf span{
+	margin-right:25px;
+}
+.main_inf img{margin-right:5px;}
+div.rud{width:600px;border-left:1px solid #000;margin-left:275px;}
+#gbox_table_one,#gbox_table{margin:0 auto;}
+#gbox_table_two{margin:10px auto; }
+				/*Сторінки*/
+div.menu{float:left;width:200px;margin-left:50px;}
+div.menu a{color:#000; display:block; width:200px;
+font-weight:700;}
+span.id_page{color:#006; margin-right:10px;}
+div.menu a:hover{color:#060;}
+.stylepage{width:100%;height:25px;padding-left:4px;}
+.rud textarea{resize:none; padding:4px;}
+.style_p{margin-left:15px;}
+.ui-dialog{font-size: 11px !important;}
+.ui-datepicker{width:200px;}
+/*Голосування*/
+#add_poll
+{
+	width: 470px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+p
+{
+	margin: 0 0 20px 0;
+}
+
+
+
+dl
+{
+	margin: 0 0 20px 0;
+}
+
+dt
+{
+	margin: 0 0 5px 0;
+}
+
+dd
+{
+	margin: 0 0 10px 0;
+}
+
+dd.error, ul.adpt_errors li
+{
+	color: red;
+	font-size:14px;
+}
+
+ul
+{
+	margin: 0 0 10px 0;
+}
+
+ul li 
+{
+	list-style: square inside;
+}
+
+h2
+{
+	font-size: 18px;
+	line-height: 36px;
+	margin: 0 0 10px 0;
+	text-align:center;
+}
+
+h3
+{
+	font-size: 20px;
+	line-height: 25px;
+	margin: 0 0 10px 0;
+}
+
+.poll
+{
+	margin: 0 0 20px 0;
+	padding: 10px 0 0 0;
+	border-top: 5px solid #DDD;
+	background: #FFF;
+}
+
+.poll_bg
+{
+	width: 100%;
+	height: 30px;
+	background: transparent url('/img/poll_bg.png');;
+	display: block;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.poll_bar
+{
+	height: 30px;
+	background: #b9dfaf;
+	display: block;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.vote_count
+{
+	color: #AAA;
+}
+
+#create_poll
+{
+	padding: 20px 0 0 0;
+}
+
+#add_poll input
+{
+	padding: 10px;
+	outline-style: none;
+	border: 1px solid #DDD;
+	width: 300px;
+	font-size: 16px;
+}
+
+button
+{
+	color: #999;
+	border: 1px solid #DDD;
+	font-size: 16px;
+	padding: 10px;
+	margin: 0;
+	background: #EEE;
+	cursor: pointer;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+.adpt_inputs p
+{
+	margin: 0 0 5px 0;
+}
+
+.btn_add, .btn_delete, .btn_normal
+{
+	padding: 5px 10px 5px 10px;
+	display: inline-block;
+	color: white;
+	background: #79c166;
+	border-bottom: none;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.btn_add:hover, .btn_add:visited, .btn_add:active,
+.btn_delete:hover, .btn_delete:visited, .btn_delete:active,
+.btn_normal:hover, .btn_normal:visited, .btn_normal:active
+{
+	border-bottom: none;
+	color: #FFF;
+}
+
+.btn_normal:hover, .btn_normal:visited, .btn_normal:active
+{
+	color: #999;
+}
+
+.btn_delete
+{
+	background: #cc6c76;
+}
+
+.btn_normal
+{
+	color: #999;
+	background: #EEE;
+}
+
+.adpt_inputs
+{
+	margin: 0 0 20px 0;
+}
+
+ol.adpt_inputs_list
+{
+	margin: 0 0 5px 0;
+	
+}
+
+ol.adpt_inputs_list li
+{
+	margin: 0 0 5px 0;
+}

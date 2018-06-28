@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+#cunews h1
+{
+	text-align:center;
+	
+}
+#cunews  table
+{
+	width:	660px;
+}
+#cunews input
+{
+	width:100%;
+	padding:8px;	
+}
+#cunews button
+{
+	color: #fff;
+	border: 1px solid #DDD;
+	font-size: 16px;
+	padding: 8px;
+	background:#79C166;
+	cursor: pointer;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+#cunews textarea
+{
+ width:100%;
+ padding:8px;	
+ resize:none;
+}
+#cke_ckeditor
+{
+	margin-left:20px;
+	width:100%;
+}
+#thumb
+{
+	padding:10px;	
+}
+#my_page
+{
+	width:700px;
+	margin:10px auto;
+	
+}
+#my_page th
+{
+	width:250px;
+	text-align:left;
+	height:30px;
+}
+#my_page  input
+{
+	padding:8px;	
+}
+#my_page  button
+{
+	color: #fff;
+	border: 1px solid #DDD;
+	font-size: 16px;
+	padding: 8px;
+	margin-left:60px;
+	background:#79C166;
+	cursor: pointer;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+#my_page input[name=surname],#my_page input[name=name]
+{
+	float:left;
+}	
+
+

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+.video{
+	width:750px;
+	background-color:#f0f0f0;
+	border-radius:10px;
+	margin:0 auto;
+	margin:15px 0;
+		
+}
+.youtube{
+	float:left;
+	padding:25px 0   0 25px;
+	margin:10px 0 10px 10px;
+	
+	
+}
+.title_video
+{
+	text-align:center;
+	padding-top:5px;
+	
+}
+.download
+{
+	float:right;
+	color:#009;
+}
+.preview
+{
+	padding:10px;
+	
+}
+.preview p
+{
+	font:16px "Times New Roman", Times, serif;
+	text-indent:40px;
+	margin:20px 20px;
+	
+}
+.rul{
+	padding:10px;
+	font:16px   "Times New Roman", Times, serif ;
+	text-indent:40px;
+	margin:20px 20px;
+	color:#F00;
+}
+
+#pag_photo li
+{
+	float:left;
+	display:block;
+	margin-right:15px;
+	padding:10px;
+	background:#FFF;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	
+}
+#pag_photo li a
+{
+	color:#000;
+	
+}
+
+#pag_photo .point 
+{
+	padding:10px 20px;
+}
+#pag_photo li.active
+{
+	background:#063;
+	color:#FFF;	
+}
+#pag_photo li.next
+{
+	float:right;
+}
+.s_video{
+
+float:right;
+margin:0 100px 15px 0;	
+width:200px;
+
+}

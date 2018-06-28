@@ -1,0 +1,237 @@
+@charset "utf-8";
+@font-face
+{
+    font-family: BauhausLightC; /* Имя шрифта */
+    src: url(/css/fonts/BauhausLightC.ttf); /* Путь к файлу со шрифтом */
+}
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:url(/img/adminka/linen.jpg) repeat #d1d5d8;
+}
+					/*Форма входу*/
+#root{
+	width:430px;
+	border-radius:5px;
+	background:url(/img/adminka/linen_login.jpg) top left no-repeat #5c5c5c;
+	margin:175px auto;
+	border: 1px solid #333;
+	padding: 10px 24px 24px 24px;	
+}
+#logo{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	color:#FFF;	
+}
+#root table{
+	width:400px;
+	margin-top:20px;
+}
+#root td.title label{
+	float:right;
+	font:16px "Times New Roman", Times, serif;
+	color:#CCC;
+	white-space: nowrap;
+		
+}
+#root td.input input{
+	width:100%;
+	padding:4px;
+	margin-left:30px;
+	border: 1px solid #b2b2b2;
+	border-radius: 4px;
+	box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.1);
+	-moz-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.1);
+	-webkit-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.1);
+	-o-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.1);	
+	outline:none;	
+}
+#root td.input input:focus{
+	box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+	-moz-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+	-webkit-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+	-o-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+}
+
+#root td.input{padding:8px;}
+.login input{
+	padding:4px;
+	border-radius:4px;
+	margin-top:15px;
+	width:100px;
+	float:right;
+	
+}
+.login input:hover{
+	box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+	-moz-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+	-webkit-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+	-o-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9), inset 0 1px 0 0 #fff;
+}
+div.error{float:left;margin-top:15px;color:#FFF;}
+input.error,textarea.error{
+	border:2px solid #DE1F1F;
+
+	}
+#root label.error{
+	color:#F00;
+	float:left;
+	margin-left:30px;
+	margin-top:5px;
+}
+textarea{
+	padding:10px;
+}
+.toggle{margin:0 auto;height:30px;width:100px;}
+
+.submit{
+	margin:10px 30px;
+	float:right;
+	
+}
+
+header,section,footer,aside,nav,article,hgroup{
+	display:block;
+}
+a{
+	text-decoration:none;
+	color:#FFF;
+}
+#main{
+	width:1024px;
+	margin:0 auto;
+	background-color:#FFF;
+	
+}
+					/*Стилі для header*/
+header{
+	width:1024px;
+	height:100px;
+	background-color:#333;
+		
+}
+#topMenu li{
+	display:block;
+	float:left;
+	list-style:none;
+	margin-right:15px;
+	size:18px;	
+}
+#logout {
+	text-align:right;
+
+}
+							/*Стилі для меню*/
+#menu{
+	width:200px;
+	background-color:#fff;	
+	float:left;
+
+}
+#menu li ul{
+	display: none;
+}
+#menu ul{
+	display:block;
+	list-style:none;
+	margin-left:25px;	
+}
+#menu li{
+	outline:none;
+	font:18px BauhausLightC;	
+}
+#menu li.name{
+	list-style-image:url(/img/add_submenu.png);
+	margin-bottom:10px;
+}
+
+#menu li a{
+	text-decoration:none;
+	width:250px;
+	font:18px BauhausLightC;
+	color:#000;
+	display:block;
+}
+#menu li:focus ul{
+	display: block;
+	margin-left:25px;
+}
+#menu li.name:focus{
+	list-style-image:url(/img/dell_submenu.png);
+}
+#menu li.name:hover{
+	cursor:pointer;
+}
+							/*Стилі для content*/
+#content{
+	width:774px;
+	margin-left:200px;
+	border-left:2px dotted #7e7e7e;
+}
+.load{
+	text-align:center;
+	margin-top:50px;
+	font-size:18px;
+}
+#news_crud{
+	width:700px;
+	margin:0 auto;	
+	font-size:18px;
+}
+#news_crud h1{
+	text-align:center;
+	font-family:BauhausLightC;
+}
+#news_crud  label{
+	margin:10px;
+	float:left;
+}
+table{
+	width:750px;
+}
+th{
+	width:200px;
+	font-family:"Times New Roman", Times, serif;	
+}
+#news_crud input:not(.subForm){
+	outline:none;
+	width:490px;
+	height:30px;
+	border-radius:8px;
+	padding-left:10px;
+	font-size:18px;
+	margin:15px 0;
+}
+#news_crud  textarea{
+	outline:none;
+	width:500px;
+	height:130px;
+	border-radius:8px;	
+	margin:15px 0;
+	font-size:18px;
+}
+.pub_yes{
+	margin-right:25px;
+}
+				/*Перегляд новин*/
+table #all_news{
+	width:100%;
+}
+#all_news tr:nth-child(even){
+	background-color:#7e7e7e;	
+}
+table #all_news tr,td{
+	text-align:center;
+	
+}
+.edit{
+	margin-right:20px;
+}
+#all_news  img{
+	opacity:0.1;
+}
+#all_news  img:hover{
+	opacity:1;
+}

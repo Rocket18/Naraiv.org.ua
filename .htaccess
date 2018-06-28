@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond $1 !^(index\.php|js|ckeditor|uploads|css|videos|img|robots|file\.txt)
+RewriteRule ^(.+)$ index.php?$1 [L] 
+</IfModule>
